@@ -1,11 +1,17 @@
 {
   "name": "perltidy",
-  "main": "./index.js",
   "version": "4.0.1",
-  "description": "Perltidy for Atom.",
-  "repository": "https://github.com/kraih/atom-perltidy",
+  "description": "Perltidy for Pulsar.",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/clarking/pulsar-perltidy"
+  },
+   "bugs": {
+    "url": "https://github.com/clarking/pulsar-perltidy/issues"
+  }
   "engines": {
-    "atom": ">=0.174.0"
+    "atom": "*",
+    "node": "*"
   },
   "dependencies": {}
 }
